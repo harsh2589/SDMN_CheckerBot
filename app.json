@@ -59,7 +59,11 @@
             "description": "Your Preffered TimeZone",
             "value": "Asia/Kolkata",
             "required": false
-        }
     },
-    "image": "heroku/php"
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
