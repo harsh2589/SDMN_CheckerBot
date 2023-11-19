@@ -31,7 +31,7 @@ $config['adminID'] = $_ENV['2037257558'];
 | ID can be obtained from https://telegram.dog/BotFather
 |
 */
-$config['logsID'] =  $_ENV['-1001923186049'];
+$config['logsID'] =  $_ENV['1001923186049'];
 
 /*
 |--------------------------------------------------------------------------
@@ -78,5 +78,5 @@ $config['anti_spam_timer'] =  $_ENV['20'];
 | array('sk1','sk2','sk3')
 |
 */
-$config['sk_keys'] =  explode(",", $_ENV['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']);
+$config['sk_keys'] =  explode(",", $_ENV['']);
 ?>
