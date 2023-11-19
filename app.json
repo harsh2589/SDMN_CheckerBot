@@ -61,11 +61,5 @@
             "required": false
         }
     },
-    "formation": {
-        "web": {
-            "quantity": 1,
-            "size": "free"
-        }
-    },
     "image": "heroku/php"
 }
